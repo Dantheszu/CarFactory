@@ -35,6 +35,15 @@ namespace CarFactory
         {
             
         }
+        static public double MpG2LKm(float Mpg)
+        {
+            return Mpg * 3.78;
+        }
+
+        static public double Km2MpG(float Km)
+        {
+            return Km / 3.78;
+        }
 
     }
 
